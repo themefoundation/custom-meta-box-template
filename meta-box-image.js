@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
 
 		// If the frame already exists, re-open it.
 		if ( meta_image_frame ) {
-			wp.media.editor.open();
+			meta_image_frame.open();
 			return;
 		}
 
