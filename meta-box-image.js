@@ -36,6 +36,6 @@ jQuery(document).ready(function($){
 		});
 
 		// Opens the media library frame.
-		wp.media.editor.open();
+		meta_image_frame.open();
 	});
 });
